@@ -18,6 +18,11 @@ Add Internet permission to Android project
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
+Add to Android Manifest inside application tag
+```
+<uses-library android:name ="org.apache.http.legacy" android:required ="false"/>
+```
+
 ### iOS  
 
 If you are compiling with iOS 9, add the following lines to your application plist:
