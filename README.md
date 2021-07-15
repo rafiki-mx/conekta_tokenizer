@@ -1,16 +1,14 @@
 
-# conekta_flutter
+# conekta_tokenizer
 
 A Flutter plugin that allows to create a [Conekta](https://www.conekta.com/) card token
 
-[![pub package](https://img.shields.io/pub/v/conekta_flutter.svg)](https://pub.dartlang.org/packages/conekta_flutter)
-
 ## Installation
 
-Add _conekta_flutter_ as a dependency in [your pubspec.yaml file](https://flutter.io/platform-plugins/).
+Add _conekta_tokenizer_ as a dependency in [your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ```
-conekta_flutter: ^0.0.4-nullsafety
+conekta_tokenizer: ^1.0.0
 ```
 
 ### Android
@@ -33,13 +31,13 @@ If you are compiling with iOS 9, add the following lines to your application pli
 
 ## Usage
 
-Instantiate the `ConektaFlutter` class
+Instantiate the `ConektaTokenizer` class
 
-	final conektaFlutter = ConektaFlutter();
+	final conektaTokenizer = ConektaTokenizer();
 
 Set your Conekta API Key
 
-	conektaFlutter.setApiKey("key_CUcWMZnt5zvqwePs2m432TQ");
+	conektaTokenizer.setApiKey("key_CUcWMZnt5zvqwePs2m432TQ");
 
 When you already have your card information create an instance of `ConektaCard` and create the card token
 
@@ -52,7 +50,7 @@ When you already have your card information create an instance of `ConektaCard` 
 	);
 	
 	try {
-		final String token = await conektaFlutter.createCardToken(conektaCard);
+		final String token = await conektaTokenizer.createCardToken(conektaCard);
 	} on PlatformException catch (exception) {
 		// Handle exception
 	}
