@@ -10,7 +10,7 @@ void main() {
     expect(
       find.byWidgetPredicate(
         (Widget widget) =>
-            widget is Text && widget.data.startsWith('Conekta token:'),
+            widget is Text && widget.data!.startsWith('Conekta token:'),
       ),
       findsOneWidget,
     );

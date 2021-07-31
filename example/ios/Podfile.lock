@@ -1,21 +1,21 @@
 PODS:
-  - conekta_flutter (0.0.1):
+  - conekta_tokenizer (1.0.0):
     - Flutter
   - Flutter (1.0.0)
 
 DEPENDENCIES:
-  - conekta_flutter (from `.symlinks/plugins/conekta_flutter/ios`)
+  - conekta_tokenizer (from `.symlinks/plugins/conekta_tokenizer/ios`)
   - Flutter (from `Flutter`)
 
 EXTERNAL SOURCES:
-  conekta_flutter:
-    :path: ".symlinks/plugins/conekta_flutter/ios"
+  conekta_tokenizer:
+    :path: ".symlinks/plugins/conekta_tokenizer/ios"
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  conekta_flutter: 591d95f7ac48d342822181ddccbdd60de2ecf2d8
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  conekta_tokenizer: 9743cceecf933bb5ab3381088f96deba99b20e84
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 
